@@ -102,14 +102,14 @@ const CoinInfo = ( { coin }) => {
                       <span>total supply</span>
                       <span>{millify(totalSupply)}</span>
                     </li>
-                    <li className='flex justify-between capitalize border p-3 my-2'>
+                    <li className='flex flex-col justify-between capitalize border p-3 my-2'>
                       <span>website</span>
                       <span>
                         <a 
                         href={websiteUrl}
                         target='_blank'
                         rel='noreferrer'
-                         className='text-blue-500 lowercase'>
+                         className='text-blue-500 lowercase text-xs'>
                           {websiteUrl}
                         </a>
                       </span>
